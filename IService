@@ -1,0 +1,5 @@
+public interface IService
+{
+    void GetPriceById(SKUUnits units);
+    int GetTotalPrice(List<SKUUnits> units);
+}
